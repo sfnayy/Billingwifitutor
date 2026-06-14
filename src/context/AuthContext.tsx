@@ -10,7 +10,7 @@ interface UserData {
   name: string;
   email: string;
   role: 'admin' | 'customer';
-  planId?: string;
+  plan?: string;
   status: 'active' | 'suspended';
 }
 
